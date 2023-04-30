@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(80, 79, 79); */
+  background-color: rgb(88, 88, 88);
+  font-family: "Caveat", cursive;
+}
+
+/*? header zone*/
+header.header-title h1 {
+  text-align: center;
+  margin: 29px 0;
+  color: white;
+}
+
+nav.link {
+  text-align: center;
+  margin: 10px;
+}
+/*? nav>link zone*/
+nav.link a {
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  /* border: 2px solid red; */
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 900px;
+}
+
+/*? nav link a:hover zone*/
+nav.link a:hover {
+  color: red;
+  background-color: gray;
+  -webkit-box-shadow: -6px 6px 14px 2px rgba(143, 143, 143, 1);
+  -moz-box-shadow: -6px 6px 14px 2px rgba(143, 143, 143, 1);
+  box-shadow: -6px 6px 14px 2px rgba(143, 143, 143, 1);
+}
+
+/*? first-sec zone*/
+section.first-sec {
+  text-align: center;
+  /* font-size: 100px; */
+  height: 500px;
+  padding: 200px;
+  margin-bottom: 200px;
+}
+
+section.first-sec .par i {
+  display: inline-block;
+  color: yellowgreen;
+}
+
+p.par {
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+/*? second section */
+
+section.second-sec {
+  height: 900px;
+}
+
+section div.title-div {
+  text-align: center;
+}
+
+section div.title-div h3 {
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: white 2px solid;
+  font-size: 32px;
+  color: white;
+}
+
+div.img-div {
+  text-align: center;
+}
+
+div.img-div img:hover {
+  opacity: 0.5;
+}
+
+div.img-div img {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  cursor: crosshair;
+}
+
+/*? third section */
+
+section.third-sec {
+  text-align: center;
+}
+
+div.contact-div {
+  text-align: center;
+}
+
+section.third-sec div.contact-div h2 {
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid white;
+  width: fit-content;
+  color: white;
+}
+
+section.third-sec div.section-link-div {
+  margin: 20px;
+}
+
+section.third-sec div.section-link-div a {
+  display: inline-block;
+  /* border: 2px solid red; */
+  margin-right: 15px;
+  width: 130px;
+  padding: 8px;
+  text-decoration: none;
+  color: beige;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+section.third-sec div.section-link-div a:hover {
+  color: orange;
+}
+
+/*? fourth-sec (Form) zone */
+
+footer.footer {
+  text-align: center;
+}
+
+footer.footer div.send p {
+  font-family: "Sigmar", cursive;
+  color: white;
+}
+
+footer.footer form div.common input {
+  line-height: 52px;
+}
+
+footer.footer form div.common input,
+textarea,
+button {
+  width: 951px;
+  border-radius: 5px;
+  border: 1px solid beige;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 35px;
+}
+::placeholder {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+footer.footer form div.send input {
+  background-color: antiquewhite;
+}
+
+button.button {
+  color: white;
+  font-family: "Sigmar", cursive;
+  padding: 5px;
+  background-color: #d2b48c;
+}
+
+button.button i {
+  display: none;
+}
+
+button.button:hover i,
+button.button:hover {
+  display: inline-block;
+  color: orange;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+div.last-div {
+  text-align: right;
+}
+
+a.top {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  padding: 10px;
+  background-color: #d2b48c;
+  color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 5px 0px;
+  margin: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+}
